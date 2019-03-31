@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <Button
+        android:id="@+id/myProfileBackButton"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/calcBackButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:padding="10dp"
+        android:text="@string/myProfileTextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myProfileParagraphTextView"
+        android:layout_width="272dp"
+        android:layout_height="276dp"
+        android:padding="10dp"
+        android:text="@string/myProfileParaghTextView"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="121dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/my_selfie"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+</android.support.constraint.ConstraintLayout>

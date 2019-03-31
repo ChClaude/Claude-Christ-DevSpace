@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Claude DevSpace</string>
+    <string name="myCodeSpaceTextView">Claude Christ\n Code Space</string>
+    <string name="promptVisitorNameTextView">Visitor\'s name:</string>
+    <string name="nextButton">Next</string>
+    <string name="visitorNameEditText">eg: Rossy</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="welcomeTextView">Dear Peter\nWelcome to my code space</string>
+    <string name="homeButton">Home</string>
+    <string name="calculationButton">Calculation</string>
+    <string name="aboutMeButton">About Me</string>
+    <string name="myDevProfileButton">My Dev Profile</string>
+    <string name="calcBackButton">Back</string>
+    <string name="calculationTitle">Volume of Sphere</string>
+    <string name="radiusEditText">Enter the radius of the sphere</string>
+    <string name="calculationOutputTextView">The volume of the sphere is: </string>
+    <string name="myProfileTextView">My Profile</string>
+    <string name="myProfileParaghTextView">I am Claude De-Tchambila.</string>
+    <string name="myDetailsTextView">My Details</string>
+    <string name="studentNameTextView">Claude C DE-TCHAMBILA</string>
+    <string name="myContactTextView">(+27) 748954636</string>
+    <string name="myEmailTextView">christ.tchambila@gmail.com</string>
+    <string name="myTwitterTextView">ClaudeChrist_DT</string>
+    <string name="myLinkedInTextView">Claude Christ DE-TCHAMBILA</string>
+    <string name="profileImageView">profile icon</string>
+    <string name="phoneImageView">phone icon</string>
+    <string name="emailImageView">email icon</string>
+    <string name="twitterImageView">twitter icon</string>
+    <string name="linkedInImageView">linkedIn icon</string>
+</resources>
