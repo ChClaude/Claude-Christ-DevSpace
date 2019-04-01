@@ -28,6 +28,7 @@
         android:layout_marginRight="141dp"
         android:padding="10dp"
         android:text="@string/myProfileTextView"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
