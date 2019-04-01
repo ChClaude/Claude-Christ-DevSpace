@@ -12,7 +12,7 @@
         <activity android:name=".MyDetailsActivity"></activity>
         <activity android:name=".MyProfileActivity" />
         <activity android:name=".CalculationActivity" />
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".MyMenuScreenActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
