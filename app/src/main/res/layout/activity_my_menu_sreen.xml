@@ -16,6 +16,7 @@
         android:layout_marginEnd="146dp"
         android:layout_marginRight="146dp"
         android:background="@color/colorPrimary"
+        android:onClick="toMyDetailsActivity"
         android:text="@string/aboutMeButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,6 +32,7 @@
         android:layout_marginEnd="59dp"
         android:layout_marginRight="59dp"
         android:background="@color/colorPrimary"
+        android:onClick="toCalculationActivity"
         android:text="@string/calculationButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/homeButton"
@@ -61,12 +63,13 @@
         android:layout_marginLeft="59dp"
         android:layout_marginTop="101dp"
         android:background="@color/colorPrimary"
+        android:onClick="toMainActivity"
         android:text="@string/homeButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeTextView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/myDevProfileButton"
         android:layout_width="237dp"
         android:layout_height="69dp"
         android:layout_marginStart="87dp"
@@ -75,6 +78,7 @@
         android:layout_marginEnd="87dp"
         android:layout_marginRight="87dp"
         android:background="@color/colorPrimary"
+        android:onClick="toMyProfileActivity"
         android:text="@string/myDevProfileButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
