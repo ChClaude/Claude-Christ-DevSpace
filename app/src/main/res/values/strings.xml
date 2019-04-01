@@ -15,7 +15,11 @@
     <string name="radiusEditText">Enter the radius of the sphere</string>
     <string name="calculationOutputTextView">The volume of the sphere is: </string>
     <string name="myProfileTextView">My Profile</string>
-    <string name="myProfileParaghTextView">I am Claude De-Tchambila.</string>
+    <string name="myProfileParagraphTextView">I am Claude De-Tchambila, a software developer, I mainly specialize in mobile development.
+        Being an undergraduate at the Cape Peninsula University of Technology I have been introduced to Java and have heavily worked
+        on writing algorithms as well as exploring data structure. I have fun discovering new technologies and their relevance
+        to solving real world problems. Currently I am working on increasing my portfolio size, most of my activities can be seen following the link bellow.
+    </string>
     <string name="myDetailsTextView">My Details</string>
     <string name="studentNameTextView">Claude C DE-TCHAMBILA</string>
     <string name="myContactTextView">(+27) 748954636</string>
@@ -27,4 +31,5 @@
     <string name="emailImageView">email icon</string>
     <string name="twitterImageView">twitter icon</string>
     <string name="linkedInImageView">linkedIn icon</string>
+    <string name="mySelfieImageView">my picture</string>
 </resources>
