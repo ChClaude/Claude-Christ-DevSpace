@@ -6,12 +6,19 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void toProfileActivity(View view) {
-        Intent i = new Intent(this, MyProfileActivity.class);
+    public static String  userName;
+
+    public void toMyMenuScreen(View view) {
+        Log.i("Info", "Next button clicked");
+        Intent i = new Intent(this, MyMenuScreenActivity.class);
         startActivity(i);
+        EditText visitorNameEditText = findViewById(R.id.visitorNameEditText);
+
+        userName = visitorNameEditText.getText().toString();
     }
 
     @Override
