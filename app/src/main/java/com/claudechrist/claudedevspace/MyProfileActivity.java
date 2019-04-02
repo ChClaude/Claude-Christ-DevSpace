@@ -1,6 +1,7 @@
 package com.claudechrist.claudedevspace;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,6 +15,22 @@ public class MyProfileActivity extends AppCompatActivity {
     public void toMenuScreen(View view) {
         Intent intent = new Intent(this, MyMenuScreenActivity.class);
         startActivity(intent);
+    }
+
+    public void openBrowser(View view) {
+        // Get url from tag
+        String url = "https://github.com/ChClaude";
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+
+        // passing the url to intent data
+        intent.setData(Uri.parse(url));
+
+        startActivity(intent);
+
+
     }
 
     @Override
