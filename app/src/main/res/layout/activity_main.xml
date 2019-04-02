@@ -80,7 +80,7 @@
         android:background="@color/colorPrimary"
         android:onClick="toMyMenuScreen"
         android:text="@string/nextButton"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

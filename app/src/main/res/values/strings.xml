@@ -12,7 +12,7 @@
     <string name="myDevProfileButton">My Dev Profile</string>
     <string name="calcBackButton">Back</string>
     <string name="calculationTitle">Volume of Sphere</string>
-    <string name="radiusEditText">Enter the radius of the sphere</string>
+    <string name="radiusEditText">Enter the radius in meters</string>
     <string name="calculationOutputTextView">The volume of the sphere is: </string>
     <string name="myProfileTextView">My Profile</string>
     <string name="myProfileParagraphTextView">I am Claude De-Tchambila, a software developer, I mainly specialize in mobile development.
