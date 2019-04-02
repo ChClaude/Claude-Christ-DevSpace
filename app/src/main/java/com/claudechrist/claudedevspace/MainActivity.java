@@ -1,6 +1,8 @@
 package com.claudechrist.claudedevspace;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static String  userName;
 
+    // Next activity toMyMenuScreen
     public void toMyMenuScreen(View view) {
         Log.i("Info", "Next button clicked");
         Intent i = new Intent(this, MyMenuScreenActivity.class);
@@ -19,6 +22,23 @@ public class MainActivity extends AppCompatActivity {
         EditText visitorNameEditText = findViewById(R.id.visitorNameEditText);
 
         userName = visitorNameEditText.getText().toString();
+    }
+
+    // Exiting the app
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Closing Activity")
+                .setMessage("Are you sure you want to exit")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 
     @Override
