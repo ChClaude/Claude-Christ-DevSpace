@@ -3,7 +3,7 @@
     <string name="myCodeSpaceTextView">Claude Christ\n Code Space</string>
     <string name="promptVisitorNameTextView">Visitor\'s name:</string>
     <string name="nextButton">Next</string>
-    <string name="visitorNameEditText">eg: Rossy</string>
+    <string name="visitorNameEditText">eg: Trevor</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="welcomeTextView">Dear Peter\nWelcome to my code space</string>
     <string name="homeButton">Home</string>
