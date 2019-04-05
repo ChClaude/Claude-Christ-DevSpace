@@ -12,7 +12,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="117dp"
+        android:layout_marginTop="180dp"
         android:contentDescription="@string/profileImageView"
         android:scaleType="fitEnd"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,6 +32,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/twitterImageView"
+        app:layout_constraintVertical_bias="0.034"
         app:srcCompat="@drawable/linkedin" />
 
     <ImageView
@@ -75,8 +76,10 @@
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toEndOf="@+id/linkedInImageView"
-        app:layout_constraintTop_toBottomOf="@+id/myTwitterTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/myTwitterTextView"
+        app:layout_constraintVertical_bias="0.051" />
 
     <TextView
         android:id="@+id/myEmailTextView"
@@ -144,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
         android:layout_marginLeft="149dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="144dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:padding="5dp"
@@ -154,6 +157,7 @@
         android:typeface="sans"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -163,13 +167,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginLeft="68dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="86dp"
         android:layout_marginEnd="71dp"
         android:layout_marginRight="71dp"
         android:text="@string/studentNameTextView"
         android:textColor="@android:color/background_dark"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/profileImageView"
         app:layout_constraintTop_toBottomOf="@+id/myDetailsTextView" />
 

@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
@@ -48,5 +50,10 @@ public class MyProfileActivity extends AppCompatActivity {
 
         Glide.with(this).load(R.drawable.my_selfie).apply(RequestOptions.circleCropTransform()).into(mySelfieImageView);
         mySelfieImageView.animate().alpha(1).setDuration(3000);
+
+        TextView profileTextView = findViewById(R.id.profileTextView);
+
+
+        profileTextView.setMovementMethod(new ScrollingMovementMethod());
     }
 }

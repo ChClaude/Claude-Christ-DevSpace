@@ -22,7 +22,7 @@ public class CalculationActivity extends AppCompatActivity {
         try {
             radius = Integer.parseInt(radiusEditText.getText().toString());
             // computing the volume of the sphere
-            double volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
+            double volume = (4.0/3) * Math.PI * Math.pow(radius, 3);
 
             calculationOutputTextView.setText(String.format("%s %.2f meter cube", "The volume of the sphere is ", volume));
             calculationOutputTextView.animate().alpha(1).setDuration(2000);

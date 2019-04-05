@@ -17,8 +17,21 @@
     <string name="myProfileTextView">My Profile</string>
     <string name="myProfileParagraphTextView">I am Claude De-Tchambila, a software developer, I mainly specialize in mobile development.
         Being an undergraduate at the Cape Peninsula University of Technology I have been introduced to Java and have heavily worked
-        on writing algorithms as well as exploring data structure. I have fun discovering new technologies and their relevance
-        to solving real world problems. Currently I am working on increasing my portfolio size, most of my activities can be seen by taping on my profile image above.
+        on writing algorithms as well as exploring data structure.
+        \n\n
+
+        In my spare time I go through tutorials, code and oftentimes read programming books.
+        Basically, I have fun discovering new technologies and their relevance
+        to solving real world problems. Currently I am working on increasing my portfolio size, most of my activities can be seen by TAPING ON MY PROFILE IMAGE ABOVE.
+        \n\n
+
+        In my early programming days I was introduced to programming by writing web pages using HTML, CSS and JavaScript, though I still do some web developing It hasn\'t
+        been my focus lately. During my study period which is basically from January to November (having holidays in between) I mostly stick to academic work and study the materials
+        I am given, I only get enough time to explore exploring different Tech stuff on holidays. At university I  get to complete various It related projects, some of them are group
+        projects and others individual ones.
+
+        \n\n
+        I am so glad to be in the IT industry and I am open and looking forward to exploring the limits of what Technology offers us.
     </string>
     <string name="myDetailsTextView">My Details</string>
     <string name="studentNameTextView">Claude C DE-TCHAMBILA</string>
